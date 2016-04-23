@@ -47,7 +47,7 @@ monster:
                    amount: 4
            cakes:
 # testing to see if cake will drop from number value instead of name value of bukkit id's if this dosent work use : CAKE
-                   material: 92
+                   material: CAKE
                    amount: 1
     chicken:
       type: CHICKEN
@@ -57,7 +57,7 @@ monster:
       drops:
                  cakes:
 # testing to see if cake will drop from number value instead of name value of bukkit id's if this dosent work use : CAKE
-                   material: 92
+                   material: CAKE
                    amount: 1
       buffs:
             speed3:
@@ -73,5 +73,5 @@ monster:
       drops:
                  cakes:
 # testing to see if cake will drop from number value instead of name value of bukkit id's if this dosent work use : CAKE
-                   material: 92
+                   material: CAKE
                    amount: 1
