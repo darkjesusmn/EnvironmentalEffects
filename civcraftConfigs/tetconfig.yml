@@ -44,6 +44,15 @@ monster:
       spawn_chance: 0.0666      
       identifier: zombie
       maximum_light_level: 7
+    shulker:
+      type: SHULKER
+      spawn_chance: 0.0666      
+      identifier: shulker
+      maximum_light_level: 15
+      drops:
+       Chorusflower:
+        material: CHORUS_FLOWER
+        lore: Purpur Plantation
     skeletons:
       type: SKELETON
       spawn_chance: 0.0666
@@ -187,13 +196,13 @@ monster:
       on_hit_debuffs:
        RunForestRun:
         type: SPEED
-        level: 3
+        level: 2
         duration: 1s
         chance: 1.0 
        blinded:
         type: BLINDNESS
         level: 1
-        duration: 10s
+        duration: 2s
         chance: 0.5 
        withered:
         type: WITHER
