@@ -221,15 +221,15 @@ monster:
       Wither:
        type: WITHER
        level: 1
-       duration: 5s
+       duration: 2s
       blinded:
        type: BLINDNESS
        level: 1
-       duration: 4s
+       duration: 1s
       withered:
        type: CONFUSION
        level: 1
-       duration: 10s
+       duration: 3s
      blocks_to_spawn_on:
       - STONE
       - BEDROCK
@@ -247,7 +247,7 @@ monster:
       - AIR
       - STATIONARY_LAVA
       - STATIONARY_WATER 
-     health: 100
+     health: 20
      despawn_on_chunk_unload: true
      y_spawn_range: 16
    lorax:
@@ -258,6 +258,10 @@ monster:
      despawn_on_chunk_unload: false
      maximum_light_level: 7
      drops:
+      Chorusplant:
+       material: CHORUS_FLOWER 
+       amount: 1
+       lore: Smells Of Purpur
       ironwoodshirt:
        material: CHAINMAIL_CHESTPLATE 
        amount: 1
@@ -275,7 +279,7 @@ monster:
           level: 1
          S2:
           enchant: DAMAGE_ALL
-          level: 4
+          level: 2
        chainmail:
         material: CHAINMAIL_CHESTPLATE
         enchants:
@@ -349,14 +353,10 @@ monster:
      name: §kFive §4RabidFireWatch §kFive 
      spawn_chance: 0.1
      drops:
-      PowBone:
-       material: BONE
-       amount: 6
+      Powplate:
+       material: CHAINMAIL_CHESTPLATE 
+       amount: 1
        lore: Pow wow
-       enchants:
-        KB1:
-         enchant: KNOCKBACK
-         level: 1
      equipment:
       BluntHotRod:
        material: BLAZE_ROD
@@ -429,4 +429,3 @@ monster:
      health: 320
      despawn_on_chunk_unload: true
      y_spawn_range: 16
-
